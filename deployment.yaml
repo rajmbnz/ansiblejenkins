@@ -9,6 +9,7 @@
       copy:
         src: /var/lib/jenkins/workspace/ansible-jenkins-pipeline
         dest: ~/project
+        remote_src: true
         
     - name: Building Docker Image
         docker_image:
