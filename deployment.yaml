@@ -3,7 +3,8 @@
   gather_facts: false
   remote_user: root
   tasks:
-      - name: Building Docker Image
+  
+    - name: Building Docker Image
         docker_image:
           name: mico:latest
           build:
