@@ -1,4 +1,3 @@
----
 - name: Build & Deploy Docker Container
   hosts: webserver
   gather_facts: false
